@@ -1,0 +1,22 @@
+{
+  "name": "aishas-challenges",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "1": "node challenge-1/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/siseko/aishas-challenges.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/siseko/aishas-challenges/issues"
+  },
+  "homepage": "https://github.com/siseko/aishas-challenges#readme",
+  "dependencies": {
+    "faker": "^4.1.0"
+  }
+}
