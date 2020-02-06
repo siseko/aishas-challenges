@@ -7,11 +7,17 @@
  */
 
 function findAllNamesStartingWith(names, letter) {
-  console.log(`Finding name starting with ${letter}`);
 
-  // Your code goes here
+  /* for ([initialization]; [condition]; [final-expression]) {} */
 
-  return names; // Return only the names starting with 'letter'
+  // let randomLetter = "letter";
+
+  console.log(names.slice(0, 1));
+
+  
+  // if statment only runs the code one time.
+
+
+  return [];
 }
-
 module.exports = findAllNamesStartingWith;

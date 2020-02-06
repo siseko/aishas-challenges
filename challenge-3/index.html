@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        span {
+            margin: 0 10px;
+            padding: 5px 50px;
+            background: tomato;
+        }
+    </style>
+</head>
+
+<body>
+    <input type="text" name="" id="hour" onkeyup="changed(event)">
+    <span id="result"></span>
+</body>
+<script>
+    const el = document.getElementById('result');
+
+    let greeting;
+    function changed(e) {
+        const value = e.target.value.length;
+
+         let myArray = ['a', 'e', 'i', 'o', 'u'];
+
+        if (value === 5 || value === 10) {
+            el.style.background = 'yellow';
+        } else {
+            el.style.background = 'tomato';
+        } 
+
+        // if (value > 5 && value < 10) {
+        //     el.style.background = 'yellow';
+        // } else {
+        //     el.style.background = 'red';
+        // }
+    }
+</script>
+
+</html>
